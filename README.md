@@ -11,14 +11,36 @@
 cordova-res -android --skip-config --copy
 cordova-res -ios --skip-config --copy
 
-# __________________________________________________________________________________________ 
+# __________________ AGREGAR PERMISO DE INTERNET ________________________________________________________________________ 
 # IMPORTANTE
 # 1 (Agregar permiso en Android 8 en adelante:)
 (agregar en todos los (3) AndroidManifest.xm que aparecen esta linea en dentro de Aplication:
 <application
     android:usesCleartextTraffic="true">
     
+    
  # 2  (CORREGIR EL capacitor.config.json de esta forma sin el serve:)
+# ____________________mal____________________________________________ 
+ antes......:
+ {
+  "appId": "com.sisBoa.com",
+  "appName": "SisBOA",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {},
+  "server": {
+    "url": "http://localhost:8100",
+    "cleartext": true
+  }
+}
+# __________________bien______________________________________________
+despues......:
  {
   "appId": "com.sisBoa.com",
   "appName": "SisBOA",
@@ -38,14 +60,13 @@ cordova-res -ios --skip-config --copy
     }
   }
 }
-# __________________________________________________________________________________________   
+# __________________________________________________________________________________________      
     
     
 # instalar libreria de sweet dialogos
 npm install --save sweetalert2
 
-
-# Capacitor funciona mejor con estos plugin
+# (SQLIte) Capacitor funciona mejor con estos plugin
 1- npm install cordova-sqlite-storage
 2- npm install @ionic-native/sqlite
 3- ionic cap sync
@@ -57,9 +78,12 @@ npm install --save sweetalert2
 
 
 
+# **************************************** ...EXTRAS... *********************************************************************************************
+# MySQL
 
+# Sum colunma
+SELECT SUM(Quantity) AS TotalItems FROM OrderDetails;
 
-# Extras: MySQL
 # Resetear un IDENTITY a un valor espeficio: (se debe colocar justo el numero por donde vaya: si va por el 1,2,3. se debe colocar el (3)
 ALTER TABLE tbl_sample AUTO_INCREMENT = 1
 
