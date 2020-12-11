@@ -94,6 +94,8 @@ select MAX(codigo)+1 As codigo FROM TABLA
 SELECT MAX(codigo)+1 into @varcodigo FROM TABLA;
 INSERT INTO TABLA2 ('campo1', 'campo2', 'campo3') VALUES (NULL, 'nombre14' , CONCAT('user_b01_',@varcodigo))
 
-
+# Update Tabla1.total = sum(columna) from Tabla2
+$comando = "UPDATE TABLA_1 o INNER JOIN ( SELECT campo_id, SUM(subTotal) 'sumu'
+FROM TABLA_2  GROUP BY campo_id) i ON o.campo_id = i.campo_id SET o.totalPrincipal = i.sumu";
 
 
