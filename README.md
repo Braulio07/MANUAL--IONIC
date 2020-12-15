@@ -1,11 +1,23 @@
 # Herramientas esenciales
 
+# cuando se descargan proyectos de git
+npm install
+
 # Iniciar con capacitor
 1 - ionic start  nombreProyecto --capacitor
 2 - ionic build 
 3 - npx cap add android (ios)
 4 - npx cap open android 
 5 - ionic cap sync 
+
+# Integrar capacitor a proyecto existente:
+1 npm install @capacitor/core @capacitor/cli
+2 npx cap init
+3 ionic build 
+4 npx cap add android
+5 ionic cap sync
+6 npx cap open android
+
 
 # Agregar los carpeta resources/ en la raiz del proyecto y sus iconos respectivos:
 cordova-res -android --skip-config --copy
@@ -62,7 +74,9 @@ despues......:
 }
 # __________________________________________________________________________________________      
     
-    
+# Cambiar iconos ionc
+<ion-icon color="primary" slot="start" [src]="c.icon"></ion-icon>
+
 # instalar libreria de sweet dialogos
 npm install --save sweetalert2
 
