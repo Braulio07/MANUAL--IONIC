@@ -18,6 +18,15 @@ npm install
 5 ionic cap sync
 6 npx cap open android
 
+
+# Emular App en tiempo real Android
+ionic capacitor run android -l --host=YOUR_IP_ADDRESS
+
+# Emular App en tiempo real IOS
+ionic capacitor run ios -l --external
+
+
+
 # Agregar Animate-CSS con npm
  npm install animate.css --save
 
