@@ -18,6 +18,8 @@ npm install
 5 ionic cap sync
 6 npx cap open android
 
+# Agregar Animate-CSS con npm
+ npm install animate.css --save
 
 # Agregar los carpeta resources/ en la raiz del proyecto y sus iconos respectivos:
 cordova-res -android --skip-config --copy
