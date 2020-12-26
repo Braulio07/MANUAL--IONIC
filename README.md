@@ -3,6 +3,21 @@
 # cuando se descargan proyectos de git
 npm install
 
+# Ionic start
+ionic start
+ionic start --list
+ionic start myApp
+ionic start myApp blank
+ionic start myApp tabs --cordova
+ionic start myApp tabs --capacitor
+ionic start myApp super --type=ionic-angular
+ionic start myApp blank --type=ionic1
+ionic start cordovaApp tabs --cordova
+ionic start "My App" blank
+ionic start "Conference App" https://github.com/ionic-team/ionic-conference-app
+
+
+
 # Iniciar con capacitor
 1 - ionic start  nombreProyecto --capacitor
 2 - ionic build 
