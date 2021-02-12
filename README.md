@@ -44,6 +44,9 @@ ionic capacitor run ios -l --external
 
 # Agregar Animate-CSS con npm
  npm install animate.css --save
+ 
+# Libreria comparar dias entre dos fechas: 
+npm install --save moment
 
 # Agregar los carpeta resources/ en la raiz del proyecto y sus iconos respectivos:
 cordova-res -android --skip-config --copy
