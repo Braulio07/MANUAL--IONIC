@@ -124,6 +124,9 @@ npm install --save sweetalert2
 # **************************************** ...EXTRAS... *********************************************************************************************
 # MySQL
 
+--de los mejores qerry: para crear consultas de 3 tablas agrupadas:
+https://www.lawebdelprogramador.com/foros/SQL/1349320-QUERY-SUM-VALOR-DE-REGISTRO-DE-OTRA-TABLA.html
+
 # Sum colunma
 SELECT SUM(Quantity) AS TotalItems FROM OrderDetails;
 
