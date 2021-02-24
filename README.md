@@ -1,4 +1,13 @@
 # Herramientas esenciales
+# Corregir problema npm de node primera vez:
+sudo chown -R $USER /usr/local/lib/node_modules
+1-   mkdir ~/.npm-global                    (Make a directory for global installations)
+2-   npm config set prefix '~/.npm-global'  (Configure npm to use the new directory path:)
+3-   export PATH=~/.npm-global/bin:$PATH    (Open or create a ~/.profile file and add this line:)
+4-   sudo chown -R $USER ~/.npm-global   
+
+# Intalar npx primera vez:
+npm install -g npx
 
 # cuando se descargan proyectos de git
 npm install
