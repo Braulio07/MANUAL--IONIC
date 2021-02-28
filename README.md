@@ -61,6 +61,13 @@ ionic capacitor run ios -l --external
 npm install --save moment
 
 # Agregar los carpeta resources/ en la raiz del proyecto y sus iconos respectivos:
+npm i -g cordova-res    (1ra vez)
+npm i native-run        (1ra vez)
+npm i -g cordova-res    (1ra vez)
+npm i cordova-res@latest --save (1ra vez)
+ionic cordova resources ios --force
+----RECOMENDADO
+npm install -g cordova-res
 cordova-res -android --skip-config --copy
 cordova-res -ios --skip-config --copy
 
