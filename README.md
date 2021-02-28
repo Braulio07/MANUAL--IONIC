@@ -6,6 +6,9 @@ sudo chown -R $USER /usr/local/lib/node_modules
 3-   export PATH=~/.npm-global/bin:$PATH    (Open or create a ~/.profile file and add this line:)
 4-   sudo chown -R $USER ~/.npm-global   
 
+# Install cocoapods, para poder elumar ios
+brew install cocoapods
+
 # Intalar npx primera vez:
 npm install -g npx
 
