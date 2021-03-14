@@ -12,6 +12,11 @@ brew install cocoapods
 # Intalar npx primera vez:
 npm install -g npx
 
+
+
+# Correccion error sqlite app 
+npm install --save @ionic-native/core
+
 # cuando se descargan proyectos de git
 npm install
 
