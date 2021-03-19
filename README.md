@@ -150,6 +150,18 @@ npm install --save sweetalert2
 # **************************************** ...EXTRAS... *********************************************************************************************
 # MySQL
 
+# UPDATE Identity a un numero especifico. SQLite 
+  public updateSequence(){
+    return new Promise((resolve, rejects) => {
+      let sql = "UPDATE sqlite_sequence  SET  seq = 105  WHERE name = 'noPedidoUnico';";
+      this.db.executeSql(sql).then((data) => {
+        resolve(data);
+      }, (error) => {
+        rejects(error);
+      });
+    });
+  }
+
 --de los mejores qerry: para crear consultas de 3 tablas agrupadas:
 https://www.lawebdelprogramador.com/foros/SQL/1349320-QUERY-SUM-VALOR-DE-REGISTRO-DE-OTRA-TABLA.html
 
