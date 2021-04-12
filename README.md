@@ -15,6 +15,13 @@ npm install --save @ionic-native/core
 # cuando se descargan proyectos de git
 npm install
 
+# Corregir Error con libreria
+npm install --save @ionic-native/core
+
+
+
+
+
 # Ionic start
 ionic start
 ionic start --list
