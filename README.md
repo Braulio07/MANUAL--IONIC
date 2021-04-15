@@ -18,8 +18,14 @@ npm install
 # Corregir Error con libreria
 npm install --save @ionic-native/core
 
+# Agregar libreria Firebase (notificaciones Push)
+npm add @angular/fire
+npm install firebase@latest
 
-
+# Para obtener el token de mi dispositivo
+npm install cordova-plugin-fcm-with-dependecy-updated
+npm install @ionic-native/fcm
+ionic cap sync
 
 
 # Ionic start
