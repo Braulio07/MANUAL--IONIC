@@ -1,5 +1,7 @@
 # Herramientas esenciales
 
+# consultar dark mode o ligth mode
+https://ionicframework.com/docs/native/theme-detection
 
 # Install cocoapods, para poder elumar ios
 brew install cocoapods
