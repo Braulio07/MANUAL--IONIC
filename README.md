@@ -3,6 +3,10 @@
 # consultar dark mode o ligth mode
 https://ionicframework.com/docs/native/theme-detection
 
+# Paletas de colores
+https://ionicframework.com/docs/theming/color-generator
+
+
 # Install cocoapods, para poder elumar ios
 brew install cocoapods
 
