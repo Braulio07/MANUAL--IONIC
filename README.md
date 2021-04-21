@@ -86,16 +86,38 @@ npm install --save moment
 3-   export PATH=~/.npm-global/bin:$PATH    (Open or create a ~/.profile file and add this line:)
 4-   sudo chown -R $USER ~/.npm-global   
 
+
+
+
+#                     # CREAR ICONO Y SPLASH
 # Agregar los carpeta resources/ en la raiz del proyecto y sus iconos respectivos:
 npm i -g cordova-res    (1ra vez)
 npm i native-run        (1ra vez)
 npm i -g cordova-res    (1ra vez)
 npm i cordova-res@latest --save (1ra vez)
 ionic cordova resources ios --force
-----RECOMENDADO
+-----------------------LO MISMO DIRECTO -----------
+ mkdir ~/.npm-global                  
+npm config set prefix '~/.npm-global'  
+export PATH=~/.npm-global/bin:$PATH
+sudo chown -R $USER ~/.npm-global   
+npm i -g cordova-res   
+npm i native-run    
+npm i -g cordova-res    
+npm i cordova-res@latest --save 
+ionic cordova resources ios --force
+-----------------------FIN LO MISMO DIRECTO -----------
+
+----RECOMENDADO (CREAR LOS IOCONOS)
 npm install -g cordova-res
 cordova-res -android --skip-config --copy
 cordova-res -ios --skip-config --copy
+
+
+
+
+
+
 
 # __________________ AGREGAR PERMISO DE INTERNET ________________________________________________________________________ 
 # IMPORTANTE
