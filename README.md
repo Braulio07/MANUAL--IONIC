@@ -88,6 +88,13 @@ npm install --save moment
 
 
 
+# PLUGIN PARA COMPARTIR REDES SOCIALES
+enlace:    https://itelisoft.com/social-sharing-ionic-3/
+npm install @ionic-native/social-sharing@4
+npm install cordova-plugin-x-socialsharing
+
+
+
 
 #                     # CREAR ICONO Y SPLASH
 # Agregar los carpeta resources/ en la raiz del proyecto y sus iconos respectivos:
@@ -166,7 +173,7 @@ despues......:
       "SplashScreen": "none",
       "SplashScreenDelay": "0"
     }
-  } 
+  }
 }
 # __________________________________________________________________________________________      
     
