@@ -14,6 +14,19 @@ brew install cocoapods
 npm install -g npx
 
 
+# PLUGIN PARA COMPARTIR REDES SOCIALES
+
+//OFICIAL IONIC. (recomendado)
+npm install cordova-plugin-x-socialsharing
+npm install @ionic-native/social-sharing
+ionic cap sync
+enlace de uso ionic:   https://ionicframework.com/docs/native/social-sharing
+enlace de uso terceros:   https://itelisoft.com/social-sharing-ionic-3/
+
+
+npm install @ionic-native/social-sharing@4
+npm install cordova-plugin-x-socialsharing
+
 
 # Correccion error sqlite app 
 npm install --save @ionic-native/core
@@ -21,7 +34,7 @@ npm install --save @ionic-native/core
 # cuando se descargan proyectos de git
 npm install
 
-# Corregir Error con libreria
+# Corregir Error con libreria y Dependencias
 npm install --save @ionic-native/core
 
 # Agregar libreria Firebase (notificaciones Push)
@@ -86,12 +99,6 @@ npm install --save moment
 3-   export PATH=~/.npm-global/bin:$PATH    (Open or create a ~/.profile file and add this line:)
 4-   sudo chown -R $USER ~/.npm-global   
 
-
-
-# PLUGIN PARA COMPARTIR REDES SOCIALES
-enlace:    https://itelisoft.com/social-sharing-ionic-3/
-npm install @ionic-native/social-sharing@4
-npm install cordova-plugin-x-socialsharing
 
 
 
