@@ -12,6 +12,12 @@ https://ionicframework.com/docs/theming/color-generator
 npm install jquery  
 npm install @types/jquery
 
+import * as $ from "jquery";
+
+
+
+
+
 
 # Install cocoapods, para poder elumar ios
 brew install cocoapods
