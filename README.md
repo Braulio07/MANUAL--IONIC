@@ -7,6 +7,12 @@ https://ionicframework.com/docs/native/theme-detection
 https://ionicframework.com/docs/theming/color-generator
 
 
+
+# Importar AJAX
+npm install jquery  
+npm install @types/jquery
+
+
 # Install cocoapods, para poder elumar ios
 brew install cocoapods
 
