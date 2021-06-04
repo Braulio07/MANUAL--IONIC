@@ -15,6 +15,9 @@ npm install @types/jquery
 import * as $ from "jquery";
 
 
+# Libreria para descargar fichero Txt
+npm install file-saver --save
+bower install file-saver
 
 
 
