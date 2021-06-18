@@ -146,17 +146,24 @@ cordova-res -ios --skip-config --copy
 
 
 
+# FONT BLUETOOTH SERIAL
+  // \x1b\x21\x30  texto Grande
+  // \x1b\x21\x20  texto Mediano 
+  // \x1b\x45\x01  bold
+  // \x1b\x21\x00  normal
+  // \x1b\x61\x01  center
+
 
 
 # __________________ AGREGAR PERMISO DE INTERNET ________________________________________________________________________ 
 # IMPORTANTE
 # 1 (Agregar permiso en Android 8 en adelante:)
 (agregar en todos los (3) AndroidManifest.xm que aparecen esta linea en dentro de Aplication:
-<application
-    android:usesCleartextTraffic="true">
+<application 
+  android:usesCleartextTraffic="true">
     
     
- # 2  (CORREGIR EL capacitor.config.json de esta forma sin el serve:)
+# 2 CORREGIR EL capacitor.config.json de esta forma sin el serve :)
 # ____________________mal____________________________________________ 
  antes......:
  {
@@ -212,9 +219,10 @@ npm install --save sweetalert2
 
 
 
-
-
-
+ 
+ 
+ 
+ 
 
 
 # **************************************** ...EXTRAS... *********************************************************************************************
