@@ -143,8 +143,15 @@ cordova-res -android --skip-config --copy
 cordova-res -ios --skip-config --copy
 
 
+#1- BLUETOOTH
+npm install cordova-plugin-bluetooth-serial
+npm install @ionic-native/bluetooth-serial
+ionic cap sync
 
-
+#2- BLE
+npm install cordova-plugin-ble-central
+npm install @ionic-native/ble
+ionic cap sync
 
 # FONT BLUETOOTH SERIAL
   // \x1b\x21\x30  texto Grande
