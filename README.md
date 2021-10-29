@@ -7,6 +7,48 @@ https://ionicframework.com/docs/native/theme-detection
 https://ionicframework.com/docs/theming/color-generator
 
 
+# Font Awesome en ionic
+(1)
+npm i @fortawesome/angular-fontawesome
+npm i @fortawesome/fontawesome-svg-core
+npm i @fortawesome/free-solid-svg-icons
+npm i @fortawesome/free-regular-svg-icons
+npm i @fortawesome/free-brands-svg-icons
+
+
+(2) importarlo en nuestro App.Module princiar y en el import:
+import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
+@NgModule({
+	declarations: [AppComponent],
+	entryComponents: [],
+	imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FontAwesomeModule],
+ 
+ 
+(3)
+export class AppModule {
+  constructor(library: FaIconLibrary) { 
+		library.addIconPacks(fas, fab, far);
+	}
+}
+
+
+(4) importarlo en el modulo de nuestra page
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+
+@NgModule({
+  imports: [
+    FontAwesomeModule,
+    
+    
+    
+    
+
+
+
 
 # Importar AJAX
 npm install jquery  
