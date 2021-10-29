@@ -43,7 +43,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
   imports: [
     FontAwesomeModule,
     
-    
+   
+ (5) y finalmente usarlo en nuestro html
+   <fa-icon icon="home"></fa-icon>
     
     
 
