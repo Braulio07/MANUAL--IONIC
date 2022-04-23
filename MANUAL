@@ -21,6 +21,7 @@
 CORREGIR ERROR DE LIBRERIA ANGULAR
 	1- npm config set legacy-peer-deps true
 	2- npm i --legacy-peer-deps
+	3- npm i @angular/animations@latest --save   (angular/animations)
 	
 # Corregir Error con libreria y Dependencias
 npm install --save @ionic-native/core
