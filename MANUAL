@@ -3,6 +3,13 @@
 # Intalar npx primera vez:
 	npm install -g npx
 	
+	
+#corregir error al ejecutar yarn o npm install
+	1-  npm install @ionic-native/core
+	2-  npm i --save @awesome-cordova-plugins/core     (en caso de este error de dependencia)
+	
+	
+	
 # START NEW PROJECT
 	ionic start
 	ionic start --list
