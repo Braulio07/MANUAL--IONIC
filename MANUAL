@@ -4,7 +4,8 @@
 	npm install -g npx
 	
 	
-#corregir error al ejecutar yarn o npm install
+#corregir error al ejecutar yarn o npm install (Dependencias)
+
 	1-  npm install @ionic-native/core
 	2-  npm i --save @awesome-cordova-plugins/core     (en caso de este error de dependencia)
 	
@@ -30,9 +31,6 @@ CORREGIR ERROR DE LIBRERIA ANGULAR
 	2- npm i --legacy-peer-deps
 	3- npm i @angular/animations@latest --save   (angular/animations)
 	
-# Corregir Error con libreria y Dependencias
-npm install --save @ionic-native/core
-
 
 # Importar AJAX
 	npm install jquery  
@@ -45,18 +43,21 @@ npm install --save @ionic-native/core
 	bower install file-saver
 
 
-# Install cocoapods, para poder elumar ios
+# Install cocoapods, para poder emular ios
 	brew install cocoapods
 
 # PLUGIN PARA COMPARTIR REDES SOCIALES
-	//OFICIAL IONIC. (recomendado)
-	npm install cordova-plugin-x-socialsharing
-	npm install @ionic-native/social-sharing
-	ionic cap sync
-	enlace de uso ionic:    https://ionicframework.com/docs/native/social-sharing
-	enlace de uso terceros: https://itelisoft.com/social-sharing-ionic-3/
-	npm install @ionic-native/social-sharing@4
-	npm install cordova-plugin-x-socialsharing
+	#OFICIAL IONIC. (recomendado)
+	  1- npm install cordova-plugin-x-socialsharing
+	  2- npm install @ionic-native/social-sharing
+	  3- ionic cap sync
+	  
+	#OTROS MEDIOS
+	  1- npm install @ionic-native/social-sharing@4
+	  2- npm install cordova-plugin-x-socialsharing
+	  3- ionic cap sync
+	    enlace de uso terceros: https://itelisoft.com/social-sharing-ionic-3/
+
 
 # Correccion error sqlite app 
 	npm install --save @ionic-native/core
