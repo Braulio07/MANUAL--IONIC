@@ -9,8 +9,19 @@
 	1-  npm install @ionic-native/core
 	2-  npm i --save @awesome-cordova-plugins/core     (en caso de este error de dependencia)
 	
+#corregir Error: Could not find the '@angular-devkit/build-angular:browser' builder's node package.	
+	
+	1-  npm uninstall @angular-devkit/build-angular
+	2-  npm install --save-dev @angular-devkit/build-angular
+
 	
 	
+#updating angular CLI (debe actualizarse desde una version anterior)
+
+1-ng update @angular/core@13 --force
+2-ng update @angular/core@14 --force
+
+
 # START NEW PROJECT
 	ionic start
 	ionic start --list
